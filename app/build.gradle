@@ -35,3 +35,7 @@ application {
     // Define the main class for the application.
     mainClass = 'caesar.cypher.App'
 }
+
+test {
+  useJUnitPlatform()
+}
